@@ -7,7 +7,7 @@
 }
 
 .meus-filmes h1{
-    margin-bottom: 14px;
+    margin-bottom: 50px;
 }
 
 .meus-filmes span{
@@ -15,21 +15,25 @@
 }
 
 .meus-filmes ul{
-    width: 720px;
+    width: 100%;
 }
 
 .meus-filmes ul li{
     list-style: none;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     align-items: center;
-    margin-bottom: 14px;
+    margin-bottom: 30px;
 }
 
 .meus-filmes div{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px auto;
+    
 }
 
 .meus-filmes div a{
